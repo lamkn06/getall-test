@@ -1,0 +1,22 @@
+.sider-bar {
+  background-color: $white;
+
+  &__trigger {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 24px;
+    line-height: 48px;
+    border-top: 1px solid $border;
+    transition: color 0.3s;
+
+    .anticon {
+      cursor: pointer;
+
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}

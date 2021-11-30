@@ -1,0 +1,27 @@
+// @import '../../assets/styles/init.scss';
+
+.dashboard-layout {
+  height: 100vh;
+
+  &__content {
+    padding: 1rem;
+  }
+
+  &__body {
+    padding-top: 1rem;
+    border-top: 1px solid $border;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    color: $white;
+    background-color: $dark-blue;
+
+    img {
+      height: 32px;
+    }
+  }
+}
